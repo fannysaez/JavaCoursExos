@@ -13,6 +13,14 @@ Exercices réalisés dans le cadre de mon apprentissage de Java (première forma
 ```
 javaCours/
 ├── .idea/              # Configuration IntelliJ
+├── ExosJava/            # Détail de chaque exercice (code + explications)
+│   ├── exo1.md
+│   ├── exo2.md
+│   ├── exo3.md
+│   ├── exo4.md
+│   ├── exo5.md
+│   ├── exo6.md
+│   └── exo7.md
 ├── src/
 │   ├── main/
 │   │   └── java/
@@ -43,6 +51,16 @@ javaCours/
 | exo5 | Simulation d'un lancer de dé |
 | exo6 | Comptage des voyelles dans une chaîne |
 | exo7 | Racine carrée d'un nombre |
+
+## Table des matières
+
+1. [Somme et moyenne de deux nombres](ExosJava/exo1.md)
+2. [Pair ou impair](ExosJava/exo2.md)
+3. [Longueur d'une chaîne de caractères](ExosJava/exo3.md)
+4. [Somme des éléments d'un tableau](ExosJava/exo4.md)
+5. [Simulation d'un lancer de dé](ExosJava/exo5.md)
+6. [Comptage des voyelles](ExosJava/exo6.md)
+7. [Racine carrée](ExosJava/exo7.md)
 
 ## Exécution
 
