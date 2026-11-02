@@ -23,6 +23,8 @@ javaCours/
 │   ├── exo5.md
 │   ├── exo6.md
 │   └── exo7.md
+├── images/               # Captures d'écran utilisées dans la documentation
+│   └── IDE Java - execution.png
 ├── src/
 │   ├── main/
 │   │   └── java/
@@ -94,4 +96,13 @@ Fichier de configuration de Maven ("Project Object Model") : nom du projet, vers
 
 ## Exécution
 
-Lancer la classe `Main.java` depuis IntelliJ (clic sur l'icône ▶️ à côté de `public static void main`).
+Le programme peut être lancé de deux façons dans IntelliJ :
+
+1. **Rapide** : clic sur l'icône ▶️ à côté de `public static void main`
+2. **Via une configuration de lancement** (Run/Debug Configurations) :
+    - **Name** : nom donné à la configuration (ex: "javaCours Main")
+    - **Main class** : `fr.simplon.Main` — la classe contenant le point d'entrée du programme
+    - **Working directory** : dossier racine du projet
+    - **Program arguments** : arguments optionnels passés au programme (non utilisés ici)
+
+![Configuration de lancement](images/IDE%20Java%20-%20execution.png)
