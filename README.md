@@ -105,4 +105,4 @@ Le programme peut être lancé de deux façons dans IntelliJ :
     - **Working directory** : dossier racine du projet
     - **Program arguments** : arguments optionnels passés au programme (non utilisés ici)
 
-![Configuration de lancement](images/IDE%20Java%20-%20excution.png)
+![Configuration de lancement](images/IDE%20Java%20-%20execution.png)
