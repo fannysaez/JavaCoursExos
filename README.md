@@ -8,6 +8,8 @@ Exercices réalisés dans le cadre de mon apprentissage de Java (première forma
 - IntelliJ IDEA (Community ou Ultimate)
 - Maven (géré automatiquement par IntelliJ)
 
+---
+
 ## Structure du projet
 
 ```
@@ -30,6 +32,7 @@ javaCours/
 ├── .gitignore
 └── pom.xml              # Configuration Maven
 ```
+---
 
 ## Comment ce projet a été créé
 
@@ -39,6 +42,29 @@ javaCours/
 4. Nom du projet : `javaCours`
 5. IntelliJ génère automatiquement la structure Maven standard (`src/main/java`, `pom.xml`, etc.)
 6. Création du package `fr.simplon` et de la classe `Main`
+
+---
+
+## Comment fonctionne Java
+
+- Le code source (`.java`) est compilé en bytecode (`.class`)
+- Le bytecode est exécuté par la JVM, spécifique à chaque système d'exploitation
+- C'est ce qui rend Java portable : le même `.class` tourne sur Windows, Linux, Mac
+
+## Comprendre la structure du projet
+
+### `.idea/`
+Configuration propre à IntelliJ (apparence, modules, lancement...), générée automatiquement par l'IDE.
+
+### `src/main/java/fr/simplon/`
+- `src/main/java` : emplacement standard imposé par Maven pour tout le code source Java
+- `fr/simplon` : le **package** de mes classes, qui organise le code et évite les conflits de noms
+- Chaque `.` dans un nom de package correspond à un sous-dossier
+
+### `pom.xml`
+Fichier de configuration de Maven ("Project Object Model") : nom du projet, version de Java, et dépendances (librairies externes utilisées).
+
+---
 
 ## Exercices réalisés
 
@@ -52,6 +78,8 @@ javaCours/
 | exo6 | Comptage des voyelles dans une chaîne |
 | exo7 | Racine carrée d'un nombre |
 
+---
+
 ## Table des matières
 
 1. [Somme et moyenne de deux nombres](ExosJava/exo1.md)
@@ -61,6 +89,8 @@ javaCours/
 5. [Simulation d'un lancer de dé](ExosJava/exo5.md)
 6. [Comptage des voyelles](ExosJava/exo6.md)
 7. [Racine carrée](ExosJava/exo7.md)
+
+---
 
 ## Exécution
 
