@@ -1,17 +1,30 @@
 package fr.simplon;
 
+import fr.simplon.entity.Circle;
+import fr.simplon.entity.Rectangle;
+import fr.simplon.entity.Shape;
+
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        exo1();
-        exo2();
-        exo3();
-        exo4();
-        exo5();
-        exo6();
-        exo7();
+//        exo1();
+//        exo2();
+//        exo3();
+//        exo4();
+//        exo5();
+//        exo6();
+//        exo7();
+//        String[] tableau = {"pomme", "banane", "kiwi"};
+//        exo9(tableau,0);
+
+        Rectangle rectangle = new Rectangle(5, 3);
+        displayArea(rectangle);
+
+        Circle circle = new Circle();
+        circle.setRadius(4);
+        displayArea(circle);
     }
 
     // Exercice 1 : calcule la somme et la moyenne de deux nombres saisis
@@ -119,6 +132,19 @@ public class Main {
 
         double racine = Math.sqrt(nombre);
         System.out.println("La racine carrée est de : " + racine);
+    }
+
+    // Exercice 9 : affiche les éléments d'un tableau de manière récursive (sans for)
+    public static void exo9(String[] array, int index) {
+        if (index < array.length) {
+            System.out.println(array[index]);
+            exo9(array, index + 1);
+        }
+    }
+
+    // Exercice formes (2.1) : affiche la surface d'une forme donnée
+    public static void displayArea(Shape shape) {
+        System.out.println("La surface est de : " + shape.getArea());
     }
 
 }
