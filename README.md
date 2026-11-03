@@ -23,6 +23,7 @@ javaCours/
 │   ├── exo5.md
 │   ├── exo6.md
 │   └── exo7.md
+│   └── exo9.md
 ├── images/               # Captures d'écran utilisées dans la documentation
 │   └── IDE Java - execution.png
 ├── src/
@@ -79,6 +80,7 @@ Fichier de configuration de Maven ("Project Object Model") : nom du projet, vers
 | exo5 | Simulation d'un lancer de dé |
 | exo6 | Comptage des voyelles dans une chaîne |
 | exo7 | Racine carrée d'un nombre |
+| exo9 | Affichage récursif d'un tableau (sans for) |
 
 ---
 
@@ -91,7 +93,7 @@ Fichier de configuration de Maven ("Project Object Model") : nom du projet, vers
 5. [Simulation d'un lancer de dé](ExosJava/exo5.md)
 6. [Comptage des voyelles](ExosJava/exo6.md)
 7. [Racine carrée](ExosJava/exo7.md)
-
+9. [Affichage récursif d'un tableau](ExosJava/exo9.md)
 ---
 
 ## Exécution
