@@ -47,11 +47,10 @@ public class Main {
     // Exercice 3 : affiche la longueur d'une chaîne de caractères saisie
     public static void exo3() {
         Scanner sc = new Scanner(System.in);
-        sc.nextLine(); // vide le retour à la ligne laissé par exo2
         System.out.println("Veuillez saisir une chaîne de caractères :");
 
-        String text = sc.nextLine();
-        System.out.println("La longueur de la chaîne est de : " + text.length());
+        String str = sc.nextLine();
+        System.out.println("La longueur de la chaîne est de : " + str.length());
     }
 
     // Exercice 4 : met des entiers saisis dans un tableau et affiche leur somme
